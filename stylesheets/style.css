@@ -657,13 +657,6 @@ input[type="color"],
   margin-left: 8px;
 }
 
-.header-style2 .sticky-area-wrap .header-ct-right .bell {
-  margin-right: 28px;
-}
-
-.header-style2 .sticky-area-wrap .header-ct-right .help a {
-  margin-right: 28px;
-}
 
 .header-customize-item.login .item-login li:not(:last-child):after {
   content: "/";
@@ -691,6 +684,9 @@ input[type="color"],
 
 .header-style2 {
   padding: 22px 0;
+}
+.header-style2 li a:hover {
+  color: darkorange;
 }
 
 .header-style2 .sticky-area-wrap .header-ct-center {
@@ -1822,7 +1818,7 @@ input[type="color"],
 /* Footer
 ------------------------------------------ */
 .footer {
-  background-color: #123841;
+  background-color: #04161a;
 }
 
 .footer .footer-logo img {
@@ -1834,8 +1830,12 @@ input[type="color"],
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-  color: #64666c;
+  color: #ffffff;
 }
+
+/* .footer ul li a {
+  color: #fff;
+} */
 
 .list-social li a {
   background: #e5e5e5;
@@ -1949,9 +1949,9 @@ input[type="color"],
   opacity: 0.8;
 }
 
-.footer-cl-1 {
+/* .footer-cl-1 {
   margin-right: 25.4%;
-}
+} */
 
 .navigation-menu-footer li:not(:last-child) {
   margin-bottom: 6px;
@@ -1959,7 +1959,7 @@ input[type="color"],
 
 .navigation-menu-footer li a {
   position: relative;
-  color: #64666c;
+  color: #ffffff;
 }
 
 .navigation-menu-footer li a::after {
@@ -1989,12 +1989,13 @@ input[type="color"],
 
 .ft-title {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   margin-bottom: 15px;
+  color: darkorange;
 }
 
-.footer-cl-2 {
+/* .footer-cl-2 {
   margin-left: 4.4%;
 }
 
@@ -2004,11 +2005,9 @@ input[type="color"],
 
 .footer-cl-4 {
   margin-left: 26.3%;
-}
+} */
 
-.footer-cl-5 {
-  margin-left: 36.3%;
-}
+
 
 .ft-download li:not(:last-child) {
   margin-bottom: 10px;
@@ -2023,43 +2022,7 @@ input[type="color"],
   align-items: center;
 }
 
-.select-language .dropdown {
-  position: relative;
-}
 
-.select-language .dropdown ul {
-  position: absolute;
-  top: 25px;
-  left: 0;
-}
-
-.select-language .dropdown img {
-  margin-right: 7px;
-}
-
-.select-language .dropdown .btn-selector::after {
-  border-bottom: 1px solid #191919;
-  border-right: 1px solid #191919;
-  content: "";
-  height: 8px;
-  width: 8px;
-  margin-top: -7px;
-  pointer-events: none;
-  position: absolute;
-  right: -21px;
-  top: 50%;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
-}
-
-.select-language .dropdown ul {
-  position: absolute;
-  top: 20px;
-  left: 0;
-}
 
 .footer .bt-left .copyright {
   margin-right: 40px;
@@ -2591,6 +2554,12 @@ input[type="color"],
 
 .aln-center {
   align-items: center;
+}
+.tf-f  li a  {
+  color: white;
+}
+.tf-f li a:hover  {
+  color: #14a077;
 }
 
 .mg-bt-0 {
