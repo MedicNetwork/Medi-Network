@@ -3015,6 +3015,8 @@
   line-height: 26px;
   color: #121212;
   text-align: center;
+  text-transform: capitalize;
+  
 }
 
 .tf-btn:hover {
