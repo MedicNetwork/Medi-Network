@@ -4,7 +4,6 @@
   * Header
   * Menu mobile
   * Blog
-  * Blog masonry
   * Blog grid
   * Blog detail
   * Footer
@@ -2069,59 +2068,6 @@ input[type="color"],
   color: #14a077;
 }
 
-/* Blog masonry
---------------------------- */
-
-.blog-masonry .list-blog-wrap {
-  display: flex;
-  gap: 32px;
-  align-items: flex-start;
-}
-
-.blog-masonry .list-blog {
-  display: flex;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.blog-masonry .list-blog .widget-blog-1 {
-  flex-wrap: wrap;
-  background: #ffffff;
-  border-radius: 8px;
-  gap: 0px;
-}
-
-.blog-masonry .list-blog .widget-blog-1:hover {
-  box-shadow: 0px 10px 25px rgba(54, 95, 104, 0.1);
-  border: none;
-}
-
-.blog-masonry .list-blog .widget-blog-1 .image {
-  width: 100%;
-}
-
-.blog-masonry .list-blog .widget-blog-1 .image img {
-  border-radius: 8px 8px 0 0;
-  width: 100%;
-}
-
-.blog-masonry .list-blog .widget-blog-1 .content {
-  padding: 24px;
-}
-
-.blog-masonry .list-blog .widget-blog-1 .content .main-title a {
-  color: #121212;
-}
-
-.blog-masonry .list-blog .widget-blog-1 .content .main-title:hover a {
-  color: #14a077;
-}
-
-.blog-masonry .widget-pagination {
-  width: 100%;
-  justify-content: center;
-  margin-top: 40px;
-}
 
 /* Blog grid
 --------------------------- */
