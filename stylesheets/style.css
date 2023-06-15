@@ -1416,10 +1416,10 @@ input[type="color"],
   visibility: hidden;
   position: absolute;
   top: 70px;
-  left: -50px;
+  left: -70px;
   transition: ease-out 0.3s;
-  width: 288px;
-  padding: 24px;
+  width: 230px;
+  padding: 20px;
   text-align: start;
   z-index: 999;
   background: #ffffff;

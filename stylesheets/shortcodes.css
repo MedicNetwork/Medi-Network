@@ -4740,6 +4740,14 @@
   margin-bottom: -7px;
 }
 
+.flat-accordion .toggle-content li {
+  font-weight: bold;
+  color: #000000fb;
+}
+.flat-accordion .toggle-content li span {
+  font-weight: lighter;
+}
+
 .flat-accordion .flat-toggle {
   border: 1px solid #b1b1b1;
   border-radius: 8px;
@@ -10051,6 +10059,9 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .FAQ-section {
+  padding: 60px 0px 38px;
+}
+.user-dashbaord {
   padding: 60px 0px 38px;
 }
 
