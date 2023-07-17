@@ -23,7 +23,6 @@
 <body>
   <a id="scroll-top"></a>
 
-
   <!-- ====== popup nav menu-mobile ====== -->
   <div class="menu-mobile-popup">
     <div class="modal-menu__backdrop"></div>
@@ -174,178 +173,124 @@
 
     </header>
 
-    <!-- ====== Breadcrumb section ===== -->
-    <section class="bg-f5 breadcrumb-section">
-      <div class="tf-container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="page-title">
-              <div class="widget-menu-link">
-                <ul>
-                  <li><a href="../home.html">Home</a></li>
-                  <li><a href="find-test.html">Find Test</a></li>
-                </ul>
+
+
+
+  <!-- ========= Breadcrumb ========== -->
+  <section class="bg-f5">
+    <div class="tf-container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="page-title">
+            <div class="widget-menu-link">
+              <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== Cart Summary ========== -->
+  <section class="shop-section">
+    <div class="tf-container pt-2">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="shopping-cart">
+            <h6>Cart Summary</h6>
+            <div class="wd-order">
+              <div class="bg-checkout">
+                <div class="product-list">
+                  <div class="product-item">
+                    <div class="info">
+                      <h6><a href="#">Blood Test</a></h6>
+                    </div>
+                    <span class="price">#7.26</span>
+                  </div>
+                  <div class="product-item">
+                    <div class="info">
+                      <h6><a href="#">Imaging Test</a></h6>
+                    </div>
+                    <span class="price">#6.26</span>
+                  </div>
+                  <div class="product-item">
+                    <div class="info">
+
+                      <h6><a href="#">Eye Test</a></h6>
+                    </div>
+                    <span class="price">#5.26</span>
+                  </div>
+                </div>
+                <div class="group-shipping">
+                  <h6>Details</h6>
+                  <ul>
+                    <li class="shipping-item">
+                      <p>Location: <a href="#">Lagos State</a></p>
+                    </li>
+                    <li class="shipping-item">
+                      <p> Test time: <a href="#">2:00pm</a></p>
+                    </li>
+                    <li class="shipping-item">
+                      <p> Test Date: <a href="#">02/March/2022</a></p>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="group-total">
+                  <h6>Subtotal</h6>
+                  <span>#168.00</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="shopping-cart">
+            <h6>order summary</h6>
+            <div class="view-cart">
+              <div class="subtotal">
+                <div class="group-ip">
+                  <div class="top">
+                    <div class="title">Total</div>
+                    <div class="price">#3,698.96</div>
+                  </div>
+                  <div class="bottom">
+                    <div class="title">Tax</div>
+                    <div class="price">-#460.00</div>
+                  </div>
+                </div>
+
+                <div class="total">
+                  <div class="title">Total</div>
+                  <div class="price">#3,698.96</div>
+                </div>
+                <a href="checkout.html" class="btn">Pay for test</a>
+                <a href="#" class="payment"><img src="../images/review/payment.png" alt="images"></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-
-
-    <!-- ======= Search Test ===== -->
-    <div class="dashboard-content">
-      <section class="candidates-section">
-        <div class="tf-container">
-          <div class="row">
-            <div class="col-lg-4 ctn2">
-              <div class="content-left style2 po-sticky">
-                <div class="inner st-filter">
-                  <div class="widget-filter no-scroll mb1">
-                    <form action="GET">
-                      <div class="group-form">
-                        <label class="title">Location</label>
-                        <div class="group-input has-icon">
-                          <i class="icon-map-pin"></i>
-                          <select>
-                            <option value="0">All Location</option>
-                            <option value="Abia">Abia</option>
-                            <option value="Adamawa">Adamawa</option>
-                            <option value="Akwa Ibom">Akwa Ibom</option>
-                            <option value="Anambra">Anambra</option>
-                            <option value="Bauchi">Bauchi</option>
-                            <option value="Bayelsa">Bayelsa</option>
-                            <option value="Benue">Benue</option>
-                            <option value="Borno">Borno</option>
-                            <option value="Cross River">Cross River</option>
-                            <option value="Delta">Delta</option>
-                            <option value="Ebonyi">Ebonyi</option>
-                            <option value="Edo">Edo</option>
-                            <option value="Ekiti">Ekiti</option>
-                            <option value="Enugu">Enugu</option>
-                            <option value="FCT">Federal Capital Territory</option>
-                            <option value="Gombe">Gombe</option>
-                            <option value="Imo">Imo</option>
-                            <option value="Jigawa">Jigawa</option>
-                            <option value="Kaduna">Kaduna</option>
-                            <option value="Kano">Kano</option>
-                            <option value="Katsina">Katsina</option>
-                            <option value="Kebbi">Kebbi</option>
-                            <option value="Kogi">Kogi</option>
-                            <option value="Kwara">Kwara</option>
-                            <option value="Lagos">Lagos</option>
-                            <option value="Nasarawa">Nasarawa</option>
-                            <option value="Niger">Niger</option>
-                            <option value="Ogun">Ogun</option>
-                            <option value="Ondo">Ondo</option>
-                            <option value="Osun">Osun</option>
-                            <option value="Oyo">Oyo</option>
-                            <option value="Plateau">Plateau</option>
-                            <option value="Rivers">Rivers</option>
-                            <option value="Sokoto">Sokoto</option>
-                            <option value="Taraba">Taraba</option>
-                            <option value="Yobe">Yobe</option>
-                            <option value="Zamfara">Zamfara</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="group-form">
-                        <label class="title">Test 1</label>
-                        <div class="group-input search-ip">
-                          <button><i class="icon-search"></i></button>
-                          <input type="text" placeholder="Search..." required />
-                        </div>
-                      </div>
-                      <div class="group-form">
-                        <label class="title">Test 2</label>
-                        <div class="group-input search-ip">
-                          <button><i class="icon-search"></i></button>
-                          <input type="text" placeholder="Search..." required />
-                        </div>
-                      </div>
-                      <div class="group-form">
-                        <label class="title">Test 3</label>
-                        <div class="group-input search-ip">
-                          <button><i class="icon-search"></i></button>
-                          <input type="text" placeholder="Search..." required />
-                        </div>
-                      </div>
-                      <div class="group-form">
-                        <label class="title">Test 4</label>
-                        <div class="group-input search-ip">
-                          <button><i class="icon-search"></i></button>
-                          <input type="text" placeholder="Search..." required />
-                        </div>
-                      </div>
-
-
-                      <button type="submit">Find Test</button>
-                    </form>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-8 tf-tab ctn2">
-              <div class="content-tab no-scroll">
-                <div class="inner">
-
-                  <div class="container">
-                    <div class="accordion-page">
-                      <h6 class="mt-4">Details of test results</h6>
-                      <div class="flat-accordion">
-                        <div class="flat-toggle">
-                          <div class="toggle-title active">Test 1<span class="icon"></span>
-                            <p> (%CDT)</p>
-                          </div>
-                          <div class="toggle-content">
-                            <ul>
-                              <li class="font-weight-bold">Alternative Test Name : <span>% CARBOHYDRATE-DEFICIENT TRANS,
-                                  %CDT</span>
-                              </li>
-                              <li class="font-weight-bold">Test Overview : <span>Lorem ipsum dolor sit amet.</span></li>
-                              <li class="font-weight-bold">Specimen Type :<span>Lorem ipsum dolor sit amet.</span></li>
-                              <li class="font-weight-bold">Test Preparation Instructions : <span>Lorem ipsum dolor sit
-                                  amet.</span>
-                              </li>
-                              <li class="font-weight-bold">Test Code : <span>Lorem ipsum dolor sit amet.</span></li>
-                            </ul>
-                          </div>
-                        </div>
-
-
-
-                      </div>
-
-                    </div>
-                  </div>
-
-
-
-
-                </div>
-
-              </div>
-            </div>
-           
-          </div>
-        </div>
-      </section>
-
-      <section class="d-flex justify-content-center flat-dashboard-bottom">
-        <div class="themes-container">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 ">
-              <p class="center">©2023 Medic Network. All Rights Reserved.</p>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
-  </div><!-- /.boxed -->
+  </section>
 
+
+
+  <section class="d-flex justify-content-center flat-dashboard-bottom">
+    <div class="themes-container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 ">
+          <p class="center">©2023 Medic Network. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
 
   <script src="../javascript/jquery.min.js"></script>
   <script src="../javascript/swiper-bundle.min.js"></script>
