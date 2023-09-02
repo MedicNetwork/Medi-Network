@@ -275,6 +275,7 @@
                     <input type="text" placeholder="Search..." required />
                   </div>
                 </div>
+                
                 <div class="group-form">
                   <label class="title">Test 3</label>
                   <div class="group-input search-ip">
@@ -481,6 +482,20 @@
   <script src="javascript/jquery.cookie.js"></script>
   <script src="javascript/switcher.js"></script>
   <script src="javascript/main.js"></script>
+
+  <script>
+    const basicAutocomplete = document.querySelector('#search-autocomplete');
+const data = ['One', 'Two', 'Three', 'Four', 'Five'];
+const dataFilter = (value) => {
+  return data.filter((item) => {
+    return item.toLowerCase().startsWith(value.toLowerCase());
+  });
+};
+
+new mdb.Autocomplete(basicAutocomplete, {
+  filter: dataFilter
+});
+  </script>
 </body>
 
 </html>
